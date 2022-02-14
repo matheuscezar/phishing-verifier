@@ -64,7 +64,7 @@ function drawChart(){
     var data = google.visualization.arrayToDataTable([
         ['',''],
         ['Are phishing',    truePhishing],
-        ['Not are phishing',    falsePhishing]
+        ['Are not phishing',    falsePhishing]
       ]);
 
       var options = {
